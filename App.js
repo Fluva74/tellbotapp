@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { StyleSheet, SafeAreaView } from 'react-native';
 import { GiftedChat } from 'react-native-gifted-chat';
 import { Button, Input } from 'react-native-elements';
+import {API_KEY} from "@env"
 
-const API_KEY = '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';
 const CHATBOT_USER_ID = 'chatbot_user_id';
 
 const systemMessage = {
