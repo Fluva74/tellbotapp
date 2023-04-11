@@ -3,7 +3,7 @@ import { StyleSheet, SafeAreaView, View, TextInput, ActivityIndicator } from 're
 import { GiftedChat } from 'react-native-gifted-chat';
 import { Button, Input } from 'react-native-elements';
 
-// import {API_KEY} from "@env"
+
 
 const CHATBOT_USER_ID = 'chatbot_user_id';
 
@@ -165,7 +165,7 @@ const App = () => {
           flex: 1,
           backgroundColor: '#fff',
         },
-        loadingContainer: { // Add this block
+        loadingContainer: { 
           position: 'absolute',
           justifyContent: 'center',
           alignItems: 'center',
