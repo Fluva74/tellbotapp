@@ -33,6 +33,7 @@ const App = () => {
 
   const onSend = async (newMessages = []) => {
     console.log('newMessages:', newMessages);
+    console.log()
     const userMessage = newMessages[0];
 
     setMessages((prevMessages) =>
